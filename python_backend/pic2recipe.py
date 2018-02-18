@@ -4,6 +4,8 @@ Communicates with pic2recipe server
 @author: grandpaa
 '''
 
+import os
+import os.path
 from selenium import webdriver
 import time
 
@@ -18,8 +20,9 @@ class Im2Ingred:
         self.drv = webdriver.Chrome(chrome_options=options)
         
 
-    def get_info(self, image_path):
+    def get_info(self, raw_data):
         global address
+        image_path = self._bytes_to_path(raw_data)
         
         self.drv.get(address)
         input_box = self.drv.find_element_by_id('uploadIm')
@@ -32,20 +35,12 @@ class Im2Ingred:
         
         return ingred.text
     
+    def _bytes_to_path(self, raw_data):
+        with open('tmp.jpeg', 'wb') as img_file:
+            img_file.write(raw_data)
+        return os.path.join(os.getcwd(), 'tmp.jpeg')
+    
     def close(self):
         self.drv.close()
 
-def __test():
-    serv = Im2Ingred()
-    ingred = serv.get_info('/home/grandpaa/Downloads/food.jpeg')
-    print(ingred)
-    serv.close()
-    print('done!')
-    
-__test()
-        
-        
-        
-        
-        
-        
+      
