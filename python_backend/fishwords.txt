@@ -1,0 +1,8 @@
+Basa, flounder, hake, scup, smelt, rainbow trout, hardshell clam, blue crab, peekytoe crab, crab, cuttlefish, oyster, oyster,Anchovy, herring, lingcod, moi,  roughy, perch,  perch, yellow perch, oyster, urchin mackerel
+Barramundi, cusk, dogfish, kingklip, mahimahi, opah, mako shark, swordfish, albacore tuna, yellowfin tuna, geoduck clam, lobster, scallop,
+Barracuda, bass, cobia, croaker, eel, marlin, mullet, sockeye salmon, bluefin tuna shrimp
+char, carp, catfish, dory, grouper, halibut, monkfish, pompano, sole, sturgeon, tilefish, wahoo, yellowtail, abalone, conch, stone crab, lobster, lobster, octopus, shrimp, shrimp, shrimp, shrimp, squid
+bass, bass, bass, bream, cod, drum, haddock, hoki, pollock, rockfish, pink salmon, snapper, tilapia, turbot, walleye, lake whitefish, wolffish, hardshell clam, surf clam, cockle, crab, snow crab, crayfish, bay scallop, shrimp
+Sablefish, salmon, coho salmon, skate, dungeness crab, crab, mussel, greenshell mussel, shrimp
+Escolar, salmon, salmon, shad
+fish
